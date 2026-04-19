@@ -8,7 +8,10 @@ interface Props {
   description?: string;
 }
 
-const { title = "Your New Business", description = "Start a business to inform retired or almost retired people of the best DSTs to sell their real estate investments with a 1031 exchange." } = Astro.props;
+const {
+  title = "Vestara — Your Confident Exit from Landlord Life",
+  description = "Learn how retiring landlords use DST 1031 exchanges to sell appreciated real estate, defer capital gains tax, and earn passive income — without the headaches."
+} = Astro.props;
 ---
 <!doctype html>
 <html lang="en" class="scroll-smooth">
@@ -18,13 +21,14 @@ const { title = "Your New Business", description = "Start a business to inform r
     <meta name="description" content={description} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
     <title>{title}</title>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "Your New Business",
-      "description": "Start a business to inform retired or almost retired people of the best DSTs to sell their real estate investments with a 1031 exchange.",
+      "name": "Vestara",
+      "description": "Independent educational guidance on DST 1031 exchanges for retiring real estate investors.",
       "url": "https://dst-real-estate-exchange.onrender.com"
     }
     </script>

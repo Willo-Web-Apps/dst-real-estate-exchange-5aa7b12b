@@ -1,11 +1,52 @@
 ---
 const year = new Date().getFullYear();
 ---
-<footer class="border-t border-surface-200 py-10 mt-auto">
+<footer class="border-t py-12 mt-auto" style="border-color: oklch(0.92 0.012 76); background: oklch(0.965 0.010 78);">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-      <p class="text-sm font-semibold text-surface-900 font-display">Your New Business</p>
-      <p class="text-sm text-surface-800/50">&copy; {year} Your New Business. All rights reserved.</p>
+
+    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-8">
+
+      <!-- Brand -->
+      <div class="max-w-xs">
+        <div class="flex items-center gap-2 mb-3">
+          <span class="w-1.5 h-5 rounded-sm" style="background: #C9922A;"></span>
+          <span class="text-lg font-bold font-display" style="color: oklch(0.20 0.020 243);">Vestara</span>
+        </div>
+        <p class="text-sm leading-relaxed" style="color: oklch(0.28 0.020 240 / 0.60);">
+          Your confident exit from landlord life. Independent educational guidance on DST 1031 exchanges for retiring real estate investors.
+        </p>
+      </div>
+
+      <!-- Links -->
+      <div class="grid grid-cols-2 gap-x-16 gap-y-3">
+        <a href="#guide"
+           class="text-sm transition-colors duration-150 hover:opacity-100"
+           style="color: oklch(0.28 0.020 240 / 0.60);">DST Starter Guide</a>
+        <a href="#how-it-works"
+           class="text-sm transition-colors duration-150 hover:opacity-100"
+           style="color: oklch(0.28 0.020 240 / 0.60);">How It Works</a>
+        <a href="#cta"
+           class="text-sm transition-colors duration-150 hover:opacity-100"
+           style="color: oklch(0.28 0.020 240 / 0.60);">Get the Guide</a>
+        <a href="mailto:hello@vestara.com"
+           class="text-sm transition-colors duration-150 hover:opacity-100"
+           style="color: oklch(0.28 0.020 240 / 0.60);">Contact</a>
+      </div>
+
     </div>
+
+    <!-- Bottom bar -->
+    <div class="mt-10 pt-6 border-t flex flex-col md:flex-row md:items-center md:justify-between gap-3"
+         style="border-color: oklch(0.92 0.012 76);">
+      <p class="text-xs" style="color: oklch(0.28 0.020 240 / 0.40);">
+        &copy; {year} Vestara. All rights reserved.
+      </p>
+      <p class="text-xs max-w-xl" style="color: oklch(0.28 0.020 240 / 0.40);">
+        Vestara is an educational resource only. We are not a registered broker-dealer, investment adviser,
+        or attorney. Nothing on this site constitutes investment, tax, or legal advice. Consult a licensed
+        professional before making any financial decision.
+      </p>
+    </div>
+
   </div>
 </footer>
