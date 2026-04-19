@@ -1,0 +1,344 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base
+  title="Pricing — Vestara DST 1031 Education"
+  description="Choose between our free 5-day DST email course or the complete $39 Essential Guide — both independent, unbiased, and built for retiring landlords."
+>
+
+  <!-- =====================================================================
+       HERO
+       ===================================================================== -->
+  <section class="relative overflow-hidden py-20 md:py-28">
+    <!-- Layered gradient background — light cream with subtle navy/gold radials -->
+    <div
+      class="absolute inset-0"
+      style="background:
+        radial-gradient(ellipse at 10% 80%, oklch(0.65 0.18 70 / 0.07), transparent 50%),
+        radial-gradient(ellipse at 90% 10%, oklch(0.31 0.10 243 / 0.06), transparent 50%),
+        linear-gradient(to bottom, oklch(0.985 0.006 80), oklch(0.965 0.010 78));"
+    ></div>
+
+    <!-- Top gold rule -->
+    <div class="absolute top-0 left-0 w-48 h-px" style="background: linear-gradient(to right, #C9922A, transparent);"></div>
+
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <!-- Eyebrow -->
+      <p class="inline-flex items-center justify-center gap-2 text-sm font-semibold uppercase tracking-widest animate-slide-up mb-5"
+         style="color: #C9922A;">
+        <span class="block w-8 h-px" style="background:#C9922A;"></span>
+        Simple, Transparent Pricing
+        <span class="block w-8 h-px" style="background:#C9922A;"></span>
+      </p>
+
+      <!-- H1 -->
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight font-display leading-[1.1] animate-slide-up delay-100"
+          style="color: oklch(0.20 0.020 243);">
+        Choose Your Path to
+        <em class="not-italic" style="color: #C9922A;">DST Clarity</em>
+      </h1>
+
+      <!-- Sub-headline -->
+      <p class="mt-6 text-lg md:text-xl leading-relaxed animate-slide-up delay-200 max-w-2xl mx-auto"
+         style="color: oklch(0.28 0.020 240 / 0.70);">
+        Both options are independent, unbiased, and built specifically for retiring landlords — not brokers.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- =====================================================================
+       PRICING CARDS
+       ===================================================================== -->
+  <section class="pb-20 md:pb-28" style="background: oklch(0.965 0.010 78);">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <div class="grid md:grid-cols-2 gap-8 items-stretch">
+
+        <!-- ── Card 1: Free ── -->
+        <div class="animate-slide-up rounded-2xl border p-8 flex flex-col bg-white"
+             style="border-color: oklch(0.92 0.012 76);">
+
+          <!-- Badge -->
+          <span class="inline-block self-start px-3 py-1 text-xs font-semibold uppercase tracking-wider rounded-full mb-5"
+                style="background: oklch(0.93 0.04 240); color: oklch(0.31 0.10 243);">
+            Always Free
+          </span>
+
+          <!-- Name + description -->
+          <h2 class="text-2xl font-bold tracking-tight font-display" style="color: oklch(0.20 0.020 243);">
+            DST Starter Course
+          </h2>
+          <p class="mt-2 text-base leading-relaxed" style="color: oklch(0.28 0.020 240 / 0.65);">
+            The essentials of DST 1031 exchanges, delivered in plain English over 5 days.
+          </p>
+
+          <!-- Price -->
+          <div class="mt-8 flex items-baseline gap-1">
+            <span class="text-5xl font-extrabold font-display" style="color: oklch(0.20 0.020 243);">$0</span>
+          </div>
+
+          <!-- Feature list -->
+          <ul class="mt-8 space-y-3.5 flex-1">
+            {[
+              "5-day DST email course",
+              "Capital gains tax overview",
+              "Plain-English DST explainer",
+              "What \"like-kind property\" actually means",
+              "Questions to ask your CPA",
+            ].map((feature) => (
+              <li class="flex items-start gap-3 text-sm" style="color: oklch(0.28 0.020 240 / 0.80);">
+                <svg class="w-5 h-5 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke-width="2.2" stroke="currentColor" style="color: oklch(0.31 0.10 243);">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                </svg>
+                <span>{feature}</span>
+              </li>
+            ))}
+          </ul>
+
+          <!-- CTA -->
+          <a
+            href="/#guide"
+            class="mt-8 block text-center px-6 py-3.5 rounded-lg font-semibold text-base transition-colors duration-150"
+            style="background: oklch(0.93 0.04 240); color: oklch(0.20 0.020 243);"
+            onmouseover="this.style.background='oklch(0.85 0.07 240)'"
+            onmouseout="this.style.background='oklch(0.93 0.04 240)'"
+          >
+            Get the Free Course
+          </a>
+
+          <!-- Trust note -->
+          <p class="mt-3 text-center text-xs" style="color: oklch(0.28 0.020 240 / 0.50);">
+            No credit card. No sales calls.
+          </p>
+        </div>
+
+
+        <!-- ── Card 2: Essential Guide ($39) — Highlighted ── -->
+        <div class="animate-slide-up delay-100 rounded-2xl flex flex-col relative"
+             style="background: white; border: 2px solid oklch(0.31 0.10 243); box-shadow: 0 8px 40px oklch(0.31 0.10 243 / 0.14);">
+
+          <!-- Navy top accent bar -->
+          <div class="rounded-t-2xl h-1.5 w-full" style="background: linear-gradient(to right, oklch(0.31 0.10 243), oklch(0.25 0.09 243));"></div>
+
+          <div class="p-8 flex flex-col flex-1">
+            <!-- Badge -->
+            <span class="inline-block self-start px-3 py-1 text-xs font-semibold uppercase tracking-wider rounded-full mb-5"
+                  style="background: #C9922A; color: #fff;">
+              Most Popular
+            </span>
+
+            <!-- Name + description -->
+            <h2 class="text-2xl font-bold tracking-tight font-display" style="color: oklch(0.20 0.020 243);">
+              Essential Guide
+            </h2>
+            <p class="mt-2 text-base leading-relaxed" style="color: oklch(0.28 0.020 240 / 0.65);">
+              The complete DST 1031 playbook for retiring real estate investors — every detail, in order.
+            </p>
+
+            <!-- Price -->
+            <div class="mt-8 flex items-baseline gap-2">
+              <span class="text-5xl font-extrabold font-display" style="color: oklch(0.20 0.020 243);">$39</span>
+              <span class="text-sm font-medium" style="color: oklch(0.28 0.020 240 / 0.55);">one-time</span>
+            </div>
+
+            <!-- Feature list -->
+            <ul class="mt-8 space-y-3.5 flex-1">
+              {[
+                "Everything in the Free Course",
+                "Full 60-page DST 1031 Guide (PDF)",
+                "Capital gains tax deferral worksheet",
+                "Accredited investor qualification checklist",
+                "Side-by-side tax comparison scenarios",
+                "Vetted DST adviser directory (25+ firms)",
+                "Lifetime access + future updates",
+              ].map((feature, i) => (
+                <li class="flex items-start gap-3 text-sm" style="color: oklch(0.28 0.020 240 / 0.80);">
+                  <svg
+                    class="w-5 h-5 shrink-0 mt-0.5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="2.2"
+                    stroke="currentColor"
+                    style={i === 0 ? "color: #C9922A;" : "color: oklch(0.31 0.10 243);"}
+                  >
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                  </svg>
+                  <span class={i === 0 ? "font-semibold" : ""}>{feature}</span>
+                </li>
+              ))}
+            </ul>
+
+            <!-- CTA -->
+            <a
+              href="STRIPE_PLACEHOLDER_URL"
+              class="mt-8 block text-center px-6 py-3.5 rounded-lg font-semibold text-base transition-colors duration-150"
+              style="background: oklch(0.31 0.10 243); color: #fff;"
+              onmouseover="this.style.background='oklch(0.25 0.09 243)'"
+              onmouseout="this.style.background='oklch(0.31 0.10 243)'"
+            >
+              Get the Essential Guide
+            </a>
+
+            <!-- Trust note -->
+            <p class="mt-3 text-center text-xs" style="color: oklch(0.28 0.020 240 / 0.50);">
+              One-time payment. No subscription.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- ── Trust Bar ── -->
+      <div class="mt-12 grid grid-cols-2 md:grid-cols-4 gap-6 animate-slide-up delay-200">
+        {[
+          { icon: "M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z", label: "Independent — no broker commissions" },
+          { icon: "M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z", label: "Written for retiring landlords, not finance pros" },
+          { icon: "M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25", label: "IRS-compliant educational content" },
+          { icon: "M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z", label: "30-day satisfaction guarantee" },
+        ].map((item) => (
+          <div class="flex flex-col items-center text-center gap-2 px-4 py-5 rounded-xl"
+               style="background: oklch(0.985 0.006 80); border: 1px solid oklch(0.92 0.012 76);">
+            <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" style="color: #C9922A;">
+              <path stroke-linecap="round" stroke-linejoin="round" d={item.icon} />
+            </svg>
+            <p class="text-xs font-medium leading-snug" style="color: oklch(0.28 0.020 240 / 0.75);">
+              {item.label}
+            </p>
+          </div>
+        ))}
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- =====================================================================
+       FAQ SECTION
+       ===================================================================== -->
+  <section class="py-20 md:py-28" style="background: oklch(0.985 0.006 80);">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <!-- Section header -->
+      <div class="text-center mb-14">
+        <span class="block w-12 h-0.5 mx-auto mb-6" style="background:#C9922A;"></span>
+        <h2 class="text-3xl md:text-4xl font-bold tracking-tight font-display animate-slide-up"
+            style="color: oklch(0.20 0.020 243);">
+          Common Questions
+        </h2>
+        <p class="mt-4 text-lg leading-relaxed animate-slide-up delay-100"
+           style="color: oklch(0.28 0.020 240 / 0.65);">
+          Straight answers — no fine print, no sales pitch.
+        </p>
+      </div>
+
+      <!-- FAQ items -->
+      <div class="space-y-6 animate-slide-up delay-200">
+
+        <!-- Q1 -->
+        <div class="rounded-2xl border p-8" style="background: white; border-color: oklch(0.92 0.012 76);">
+          <h3 class="text-lg font-bold font-display" style="color: oklch(0.20 0.020 243);">
+            Is Vestara a broker or financial adviser?
+          </h3>
+          <p class="mt-3 text-base leading-relaxed" style="color: oklch(0.28 0.020 240 / 0.70);">
+            No. Vestara is an independent educational resource. We are not a registered broker-dealer,
+            investment adviser, or attorney. Our guides help retiring landlords understand DST 1031
+            exchanges in plain English — so you can have a more informed conversation with your CPA,
+            attorney, or licensed adviser. We never earn commissions on any DST transaction.
+          </p>
+        </div>
+
+        <!-- Q2 -->
+        <div class="rounded-2xl border p-8" style="background: white; border-color: oklch(0.92 0.012 76);">
+          <h3 class="text-lg font-bold font-display" style="color: oklch(0.20 0.020 243);">
+            Who is the Essential Guide written for?
+          </h3>
+          <p class="mt-3 text-base leading-relaxed" style="color: oklch(0.28 0.020 240 / 0.70);">
+            Retiring landlords with appreciated real estate who want to exit their properties without
+            handing a third of their gains to the IRS. You don't need a finance degree — the guide is
+            written in plain English, walks through every step in order, and includes worksheets and
+            checklists you can bring directly to your professional advisers. If you own one or more
+            rental properties and are within 10 years of retirement, it was written specifically for you.
+          </p>
+        </div>
+
+        <!-- Q3 -->
+        <div class="rounded-2xl border p-8" style="background: white; border-color: oklch(0.92 0.012 76);">
+          <h3 class="text-lg font-bold font-display" style="color: oklch(0.20 0.020 243);">
+            When will I receive the guide?
+          </h3>
+          <p class="mt-3 text-base leading-relaxed" style="color: oklch(0.28 0.020 240 / 0.70);">
+            Immediately after purchase — delivered as a PDF to the inbox you provide at checkout.
+            There's no waiting, no shipping, and no account to create. Your download link is
+            permanent and yours to keep. If you ever lose access or need a re-send, email us at
+            <a href="mailto:hello@vestara.com" class="font-medium underline underline-offset-2 transition-colors duration-150"
+               style="color: oklch(0.31 0.10 243);">hello@vestara.com</a>
+            and we'll get it to you within one business day.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =====================================================================
+       BOTTOM CTA
+       ===================================================================== -->
+  <section id="cta" class="py-20 md:py-28 relative overflow-hidden">
+    <!-- Navy gradient background -->
+    <div
+      class="absolute inset-0"
+      style="background:
+        radial-gradient(ellipse at 20% 50%, oklch(0.65 0.18 70 / 0.10), transparent 50%),
+        radial-gradient(ellipse at 80% 20%, oklch(0.45 0.10 240 / 0.15), transparent 50%),
+        linear-gradient(145deg, oklch(0.20 0.020 243) 0%, oklch(0.25 0.09 243) 60%, oklch(0.31 0.10 243) 100%);"
+    ></div>
+
+    <!-- Gold top rule -->
+    <div class="absolute top-0 left-0 right-0 h-px" style="background: linear-gradient(to right, transparent, #C9922A, transparent);"></div>
+
+    <div class="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <span class="block w-12 h-0.5 mx-auto mb-6" style="background:#C9922A;"></span>
+
+      <h2 class="text-3xl md:text-4xl font-bold tracking-tight font-display animate-slide-up"
+          style="color: oklch(0.985 0.006 80);">
+        Still on the fence? Start free.<br/>
+        <em class="not-italic" style="color: #C9922A;">Upgrade when you're ready.</em>
+      </h2>
+
+      <p class="mt-6 text-lg leading-relaxed animate-slide-up delay-100"
+         style="color: oklch(0.85 0.012 76 / 0.80);">
+        The free 5-day course is a genuine starting point — not a teaser. Most readers finish it
+        knowing more than they ever expected. The Essential Guide simply goes deeper.
+      </p>
+
+      <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 animate-slide-up delay-200">
+        <a
+          href="/#guide"
+          class="inline-block px-8 py-4 rounded-lg font-semibold text-base transition-colors duration-150"
+          style="background:#C9922A; color:#fff;"
+          onmouseover="this.style.background='oklch(0.55 0.17 68)'"
+          onmouseout="this.style.background='#C9922A'"
+        >
+          Get the Free Course
+        </a>
+        <a
+          href="STRIPE_PLACEHOLDER_URL"
+          class="inline-block px-8 py-4 rounded-lg font-semibold text-base border transition-colors duration-150"
+          style="border-color: oklch(0.85 0.012 76 / 0.30); color: oklch(0.985 0.006 80);"
+          onmouseover="this.style.borderColor='oklch(0.85 0.012 76 / 0.60)'"
+          onmouseout="this.style.borderColor='oklch(0.85 0.012 76 / 0.30)'"
+        >
+          Get the Essential Guide — $39
+        </a>
+      </div>
+
+      <p class="mt-5 text-sm animate-slide-up delay-300" style="color: oklch(0.85 0.012 76 / 0.45);">
+        No commissions, ever. Independent educational resource.
+      </p>
+    </div>
+  </section>
+
+</Base>
