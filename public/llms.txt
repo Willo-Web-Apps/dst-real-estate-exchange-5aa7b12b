@@ -1,0 +1,20 @@
+# Your New Business
+
+> URL: https://dst-real-estate-exchange.onrender.com
+
+> Start a business to inform retired or almost retired people of the best DSTs to sell their real estate investments with a 1031 exchange.
+
+## About
+
+Your New Business is an AI-powered business. This file provides a brief overview for
+language model crawlers and AI assistants.
+
+## Pages
+
+- /: Home — learn about Your New Business and get started
+- /blog: Blog — articles, updates, and insights
+- /blog/[slug]: Individual blog posts
+
+## Contact
+
+For inquiries, please visit our website.
