@@ -1,10 +1,6 @@
 ---
 title: "5 Best DST Sponsors in 2025 (Ranked by Track Record, Transparency & Investor Returns)"
-description: "5 Best DST Sponsors in 2025 Ranked by Track Record, Transparency & Investor Returns
-
-Published April 2025 | Updated for current market conditions
-
---"
+description: "Not all DST sponsors are created equal. We ranked the top 5 based on full-cycle track record, fee transparency, reporting quality, and investor protections — so you can choose a sponsor with confidence."
 pubDate: "2026-04-22"
 ---
 

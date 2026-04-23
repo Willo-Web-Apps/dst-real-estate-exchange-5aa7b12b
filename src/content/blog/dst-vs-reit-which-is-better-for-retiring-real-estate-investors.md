@@ -1,8 +1,6 @@
 ---
 title: "DST vs. REIT: Which Is Better for Retiring Real Estate Investors?"
-description: "DST vs. REIT: Which Is Better for Retiring Real Estate Investors?
-
-You've spent decades building wealth through real estate. Now you want out of acti"
+description: "REITs and DSTs both offer passive real estate income — but only a DST lets you defer capital gains taxes through a 1031 exchange. For retiring investors selling appreciated property, that difference can be worth hundreds of thousands of dollars."
 pubDate: "2026-04-22"
 ---
 
