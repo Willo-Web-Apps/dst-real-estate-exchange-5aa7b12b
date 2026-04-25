@@ -12,9 +12,11 @@ const {
   title = "Vestara — Your Confident Exit from Landlord Life",
   description = "Learn how retiring landlords use DST 1031 exchanges to sell appreciated real estate, defer capital gains tax, and earn passive income — without the headaches."
 } = Astro.props;
+
+const apiBase = (import.meta.env.PUBLIC_API_BASE_URL || '').replace(/\/$/, '');
 ---
 <!doctype html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" class="scroll-smooth" data-api-base={apiBase}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

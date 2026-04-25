@@ -1,14 +1,6 @@
 ---
 title: "What Happens If You Miss the 1031 Exchange Deadline?"
-description: "---
-
- What Happens If You Miss the 1031 Exchange Deadline?
-
-Published: April 22, 2026 | Vestara | vestara.bywillo.ai
-
----
-
- The $180,000 Mistake T"
+description: "Miss the 1031 exchange deadline and the IRS tax bill arrives immediately. Learn what happens, how much it costs, and the rare exceptions that might save you."
 pubDate: "2026-04-24"
 ---
 

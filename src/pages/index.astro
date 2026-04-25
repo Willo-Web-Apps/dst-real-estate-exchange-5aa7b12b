@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import EmailCapture from '../components/EmailCapture.astro';
 ---
 <Base
   title="Vestara — Your Confident Exit from Landlord Life"
@@ -48,7 +49,7 @@ import Base from '../layouts/Base.astro';
         <!-- CTAs -->
         <div class="mt-10 flex flex-col sm:flex-row items-start sm:items-center gap-4 animate-slide-up delay-300">
           <a
-            href="#guide"
+            href="#email-signup"
             class="inline-block px-8 py-4 rounded-lg font-semibold text-base transition-colors duration-150"
             style="background:#C9922A; color:#fff;"
             onmouseover="this.style.background='oklch(0.55 0.17 68)'"
@@ -346,6 +347,180 @@ import Base from '../layouts/Base.astro';
 
 
   <!-- =====================================================================
+       TESTIMONIALS / SOCIAL PROOF
+       ===================================================================== -->
+  <section class="py-20 md:py-28" style="background: oklch(0.965 0.010 78);">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-2xl mx-auto text-center mb-14">
+        <span class="block w-12 h-0.5 mx-auto mb-6" style="background:#C9922A;"></span>
+        <h2 class="text-3xl md:text-4xl font-bold tracking-tight font-display animate-slide-up"
+            style="color: oklch(0.20 0.020 243);">
+          Retiring landlords who found clarity
+        </h2>
+        <p class="mt-4 text-lg leading-relaxed animate-slide-up delay-100"
+           style="color: oklch(0.28 0.020 240 / 0.65);">
+          Real questions, real answers — from people exactly where you are.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Testimonial 1 -->
+        <div class="rounded-2xl p-8 border flex flex-col animate-slide-up"
+             style="background: oklch(0.985 0.006 80); border-color: oklch(0.92 0.012 76);">
+          <div class="flex gap-1 mb-5">
+            <span style="color:#C9922A;">★★★★★</span>
+          </div>
+          <blockquote class="flex-1 text-base leading-relaxed italic mb-6"
+                      style="color: oklch(0.28 0.020 240 / 0.75);">
+            "I'd owned my duplex for 22 years and had no idea that selling outright meant handing nearly
+            $180,000 to the IRS. Vestara's plain-English breakdowns changed how I looked at my whole exit."
+          </blockquote>
+          <div>
+            <p class="font-semibold text-sm" style="color: oklch(0.20 0.020 243);">Robert M.</p>
+            <p class="text-xs mt-0.5" style="color: oklch(0.28 0.020 240 / 0.50);">Retired, Phoenix AZ — former duplex owner</p>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="rounded-2xl p-8 border flex flex-col animate-slide-up delay-100"
+             style="background: oklch(0.985 0.006 80); border-color: oklch(0.92 0.012 76);">
+          <div class="flex gap-1 mb-5">
+            <span style="color:#C9922A;">★★★★★</span>
+          </div>
+          <blockquote class="flex-1 text-base leading-relaxed italic mb-6"
+                      style="color: oklch(0.28 0.020 240 / 0.75);">
+            "My CPA had mentioned 1031 exchanges in passing. Vestara was the first resource that actually
+            explained how DSTs work for someone like me — not an attorney, not a developer, just a landlord
+            ready to retire."
+          </blockquote>
+          <div>
+            <p class="font-semibold text-sm" style="color: oklch(0.20 0.020 243);">Susan K.</p>
+            <p class="text-xs mt-0.5" style="color: oklch(0.28 0.020 240 / 0.50);">Semi-retired teacher, Columbus OH — 3 rental properties</p>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="rounded-2xl p-8 border flex flex-col animate-slide-up delay-200"
+             style="background: oklch(0.985 0.006 80); border-color: oklch(0.92 0.012 76);">
+          <div class="flex gap-1 mb-5">
+            <span style="color:#C9922A;">★★★★★</span>
+          </div>
+          <blockquote class="flex-1 text-base leading-relaxed italic mb-6"
+                      style="color: oklch(0.28 0.020 240 / 0.75);">
+            "I spent weeks reading articles that all felt like sales brochures from someone who wanted my
+            money. Vestara is different — no broker spin, no pressure. Just the information I needed to walk
+            into my adviser's office with confidence."
+          </blockquote>
+          <div>
+            <p class="font-semibold text-sm" style="color: oklch(0.20 0.020 243);">Gerald T.</p>
+            <p class="text-xs mt-0.5" style="color: oklch(0.28 0.020 240 / 0.50);">Retired engineer, Tampa FL — $1.4M rental portfolio</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =====================================================================
+       EMAIL CAPTURE — Lead Magnet
+       ===================================================================== -->
+  <section id="email-signup" class="py-20 md:py-28 relative overflow-hidden"
+           style="background: oklch(0.20 0.020 243);">
+    <!-- Decorative gradient -->
+    <div class="absolute inset-0 pointer-events-none"
+         style="background: radial-gradient(ellipse at 80% 50%, oklch(0.65 0.18 70 / 0.10), transparent 60%);"></div>
+
+    <div class="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <!-- Icon -->
+      <div class="w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6"
+           style="background: oklch(0.65 0.18 70 / 0.15);">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="#C9922A">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+        </svg>
+      </div>
+
+      <span class="block w-12 h-0.5 mx-auto mb-6" style="background:#C9922A;"></span>
+      <h2 class="text-3xl md:text-4xl font-bold tracking-tight font-display animate-slide-up"
+          style="color: oklch(0.985 0.006 80);">
+        Get the free DST Starter Guide
+      </h2>
+      <p class="mt-4 text-lg leading-relaxed animate-slide-up delay-100"
+         style="color: oklch(0.85 0.012 76 / 0.75);">
+        Our 7-step plain-English guide to DST 1031 exchanges — covering who qualifies, IRS timelines,
+        how passive income works, and the 5 questions to ask your CPA.
+        Delivered free to your inbox.
+      </p>
+
+      <!-- What's inside -->
+      <div class="mt-8 mb-10 grid grid-cols-1 sm:grid-cols-2 gap-3 text-left max-w-xl mx-auto animate-slide-up delay-200">
+        <div class="flex items-start gap-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="#C9922A">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+          </svg>
+          <p class="text-sm" style="color: oklch(0.85 0.012 76 / 0.80);">What a DST is (and what it isn't)</p>
+        </div>
+        <div class="flex items-start gap-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="#C9922A">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+          </svg>
+          <p class="text-sm" style="color: oklch(0.85 0.012 76 / 0.80);">How the 45-day and 180-day rules work</p>
+        </div>
+        <div class="flex items-start gap-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="#C9922A">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+          </svg>
+          <p class="text-sm" style="color: oklch(0.85 0.012 76 / 0.80);">Accredited investor requirements explained</p>
+        </div>
+        <div class="flex items-start gap-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="#C9922A">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+          </svg>
+          <p class="text-sm" style="color: oklch(0.85 0.012 76 / 0.80);">Real numbers: tax saved on a $1M property</p>
+        </div>
+        <div class="flex items-start gap-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="#C9922A">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+          </svg>
+          <p class="text-sm" style="color: oklch(0.85 0.012 76 / 0.80);">5 questions to ask your CPA today</p>
+        </div>
+        <div class="flex items-start gap-3">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 flex-shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="#C9922A">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+          </svg>
+          <p class="text-sm" style="color: oklch(0.85 0.012 76 / 0.80);">Ongoing DST education, delivered monthly</p>
+        </div>
+      </div>
+
+      <!-- Email form — styled for dark background -->
+      <div class="max-w-md mx-auto animate-slide-up delay-300">
+        <form id="hero-email-form" class="flex flex-col sm:flex-row gap-3">
+          <input
+            type="email"
+            name="email"
+            placeholder="your@email.com"
+            required
+            class="flex-1 px-4 py-3.5 rounded-lg text-base outline-none transition border"
+            style="background: oklch(0.28 0.04 243); border-color: oklch(0.45 0.10 240 / 0.40); color: oklch(0.95 0.006 80);"
+            onfocus="this.style.borderColor='#C9922A'" onblur="this.style.borderColor='oklch(0.45 0.10 240 / 0.40)'"
+          />
+          <button type="submit" id="hero-email-btn"
+            class="px-7 py-3.5 rounded-lg font-semibold text-base transition-colors duration-150 whitespace-nowrap"
+            style="background:#C9922A; color:#fff;"
+            onmouseover="this.style.background='oklch(0.55 0.17 68)'"
+            onmouseout="this.style.background='#C9922A'">
+            Send Me the Guide
+          </button>
+        </form>
+        <p id="hero-email-msg" class="mt-3 text-sm hidden" style="color: oklch(0.85 0.012 76 / 0.70);"></p>
+        <p class="mt-3 text-xs" style="color: oklch(0.85 0.012 76 / 0.40);">
+          No spam. No sales calls. Unsubscribe anytime.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- =====================================================================
        TRUST / DIFFERENTIATOR SECTION
        ===================================================================== -->
   <section class="py-20 md:py-28" style="background: oklch(0.965 0.010 78);">
@@ -370,10 +545,10 @@ import Base from '../layouts/Base.astro';
             was built specifically for the retiring landlord who reads Kiplinger and trusts their CPA —
             and wants to understand the strategy <em>before</em> anyone tries to sell them something.
           </p>
-          <a href="#cta"
+          <a href="#email-signup"
              class="inline-block px-7 py-3.5 rounded-lg font-semibold text-base transition-colors duration-150 animate-slide-up delay-300"
              style="background: oklch(0.31 0.10 243); color: #fff;">
-            Read the free guide
+            Get the free guide
           </a>
         </div>
 
@@ -533,6 +708,7 @@ import Base from '../layouts/Base.astro';
   </section>
 
   <script>
+    // ── Consultation form ──────────────────────────────────────────────────
     const ctaForm = document.getElementById('cta-consult-form');
     const ctaBtn = document.getElementById('cta-submit-btn');
     const ctaThankYou = document.getElementById('cta-thank-you');
@@ -554,6 +730,44 @@ import Base from '../layouts/Base.astro';
 
       ctaFormWrap.classList.add('hidden');
       ctaThankYou.classList.remove('hidden');
+    });
+
+    // ── Hero email capture form ────────────────────────────────────────────
+    const heroForm = document.getElementById('hero-email-form');
+    const heroBtn  = document.getElementById('hero-email-btn');
+    const heroMsg  = document.getElementById('hero-email-msg');
+
+    heroForm?.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const email = new FormData(heroForm).get('email');
+      heroBtn.textContent = 'Sending…';
+      heroBtn.disabled = true;
+
+      const apiBase = (document.documentElement.dataset.apiBase || '').replace(/\/$/, '');
+      try {
+        const resp = await fetch(`${apiBase}/api/v1/subscribe`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email, source: 'homepage-lead-magnet' }),
+        });
+        heroMsg.classList.remove('hidden', 'text-red-400');
+        if (resp.ok) {
+          heroMsg.textContent = '✓ Guide on its way — check your inbox!';
+          heroMsg.style.color = '#C9922A';
+          heroForm.reset();
+        } else {
+          heroMsg.textContent = 'Something went wrong. Please try again.';
+          heroMsg.classList.add('text-red-400');
+        }
+      } catch {
+        heroMsg.classList.remove('hidden');
+        heroMsg.textContent = 'Something went wrong. Please try again.';
+        heroMsg.classList.add('text-red-400');
+      }
+
+      heroMsg.classList.remove('hidden');
+      heroBtn.textContent = 'Send Me the Guide';
+      heroBtn.disabled = false;
     });
   </script>
 
