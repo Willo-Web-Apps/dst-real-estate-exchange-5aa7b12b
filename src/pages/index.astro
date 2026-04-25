@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import EmailCapture from '../components/EmailCapture.astro';
+const apiBase = (import.meta.env.PUBLIC_API_BASE_URL || '').replace(/\/$/, '');
 ---
 <Base
   title="Vestara — Your Confident Exit from Landlord Life"
@@ -707,7 +708,7 @@ import EmailCapture from '../components/EmailCapture.astro';
     </div>
   </section>
 
-  <script>
+  <script define:vars={{ apiBase }}>
     // ── Consultation form ──────────────────────────────────────────────────
     const ctaForm = document.getElementById('cta-consult-form');
     const ctaBtn = document.getElementById('cta-submit-btn');
@@ -743,7 +744,6 @@ import EmailCapture from '../components/EmailCapture.astro';
       heroBtn.textContent = 'Sending…';
       heroBtn.disabled = true;
 
-      const apiBase = (document.documentElement.dataset.apiBase || '').replace(/\/$/, '');
       try {
         const resp = await fetch(`${apiBase}/api/v1/subscribe`, {
           method: 'POST',
