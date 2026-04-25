@@ -1,12 +1,6 @@
 ---
 title: "The Vestara Brief #1: The $0 Mistake Retiring Landlords Make"
-description: "The Vestara Brief 1: The $0 Mistake Retiring Landlords Make
-
-Issue 1 · April 25, 2026 · The DST & 1031 Exchange Series
-
----
-
-This Week's Focus: Tax S"
+description: "Most retiring landlords sell their rental properties and hand 30-40% straight to the IRS — not knowing a 1031 exchange into a DST could have deferred every dollar of that tax bill."
 pubDate: "2026-04-25"
 ---
 
