@@ -12,7 +12,7 @@ pubDate: "2026-04-24"
 
 # What Happens If You Miss the 1031 Exchange Deadline?
 
-*Published: April 22, 2026 | Vestara | vestara.bywillo.ai*
+*Published: April 22, 2026 | Vestara | vestara1031.com*
 
 ---
 
@@ -221,7 +221,7 @@ If you're approaching retirement with appreciated real estate and want to unders
 
 **Download the Complete DST Guide for Retiring Investors** — a comprehensive resource covering how DSTs work, how to evaluate sponsors, what fees to expect, and how to structure a 1031 exchange that reaches the finish line safely.
 
-👉 **[Get the Complete DST Guide at vestara.bywillo.ai/pricing](https://vestara.bywillo.ai/pricing)**
+👉 **[Get the Complete DST Guide at vestara1031.com/pricing](https://vestara1031.com/pricing)**
 
 Or, if you'd prefer to talk through your specific situation with an advisor who specializes in DST 1031 exchanges, **schedule your free consultation today**. There's no obligation — just a straightforward conversation about your property, your timeline, and your options.
 

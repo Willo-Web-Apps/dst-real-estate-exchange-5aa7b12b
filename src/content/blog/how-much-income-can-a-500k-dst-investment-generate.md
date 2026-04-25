@@ -194,7 +194,7 @@ The income scenarios above are a starting point. Your actual outcome depends on 
 
 The scenarios in this post are illustrative. Before you make any decision, you need a side-by-side analysis built around your actual property value, cost basis, mortgage balance, current rental income, and tax situation.
 
-**[Download the Complete DST Guide at vestara.bywillo.ai/pricing](https://vestara.bywillo.ai/pricing)** — our comprehensive resource walks you through every stage of the DST 1031 process: how to qualify, how to evaluate sponsors, how distributions are taxed, and how to plan your exit. It's the clearest explanation of this strategy available for retiring real estate investors.
+**[Download the Complete DST Guide at vestara1031.com/pricing](https://vestara1031.com/pricing)** — our comprehensive resource walks you through every stage of the DST 1031 process: how to qualify, how to evaluate sponsors, how distributions are taxed, and how to plan your exit. It's the clearest explanation of this strategy available for retiring real estate investors.
 
 **Schedule a free consultation** to discuss your specific property and get a personalized income comparison. There's no obligation — just an honest conversation about whether a DST makes financial sense for your situation.
 

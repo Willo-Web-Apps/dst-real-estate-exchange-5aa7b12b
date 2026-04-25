@@ -20,7 +20,7 @@ pubDate: "2026-04-24"
 **Target Keyword:** 1031 exchange 45-day rule
 **Secondary Keywords:** 1031 exchange timeline, identification period 1031, 1031 exchange mistakes, how to identify replacement property 1031
 **Word Count:** ~2,050
-**CTA:** Download the Complete DST Guide at vestara.bywillo.ai/pricing + Free Consultation
+**CTA:** Download the Complete DST Guide at vestara1031.com/pricing + Free Consultation
 
 ---
 
@@ -211,9 +211,9 @@ At Vestara, we help retiring landlords understand exactly how DSTs work, which o
 
 **Ready to go deeper?**
 
-📘 **[Download the Complete DST Guide for Retiring Investors](https://vestara.bywillo.ai/pricing)** — a comprehensive walkthrough of DST 1031 exchanges, including how to evaluate offerings, what fees to watch for, and how to build a retirement income strategy around your real estate equity.
+📘 **[Download the Complete DST Guide for Retiring Investors](https://vestara1031.com/pricing)** — a comprehensive walkthrough of DST 1031 exchanges, including how to evaluate offerings, what fees to watch for, and how to build a retirement income strategy around your real estate equity.
 
-📞 **[Schedule a Free Consultation](https://vestara.bywillo.ai/pricing)** — talk through your specific situation with a DST specialist before your property goes on the market. The best time to plan your exchange is before the clock starts.
+📞 **[Schedule a Free Consultation](https://vestara1031.com/consultation)** — talk through your specific situation with a DST specialist before your property goes on the market. The best time to plan your exchange is before the clock starts.
 
 *The 45-day rule waits for no one. But with the right plan, it doesn't have to be a source of dread.*
 
