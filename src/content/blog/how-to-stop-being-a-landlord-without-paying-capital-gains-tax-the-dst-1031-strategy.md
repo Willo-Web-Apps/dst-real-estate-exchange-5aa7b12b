@@ -1,11 +1,7 @@
 ---
 title: "How to Stop Being a Landlord Without Paying Capital Gains Tax (The DST 1031 Strategy)"
-description: "Meta Description: Tired of tenants and repairs? Learn how retiring landlords use DST 1031 exchanges to sell rental property, defer capital gains tax,"
+description: "Tired of tenants and repairs? Learn how retiring landlords use DST 1031 exchanges to sell rental property, defer capital gains tax, and collect passive income."
 pubDate: "2026-04-24"
----
-
-> **Meta Description:** Tired of tenants and repairs? Learn how retiring landlords use DST 1031 exchanges to sell rental property, defer capital gains tax, and collect passive income.
-
 ---
 
 # How to Stop Being a Landlord Without Paying Capital Gains Tax (The DST 1031 Strategy)

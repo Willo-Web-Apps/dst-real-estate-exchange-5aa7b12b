@@ -1,24 +1,10 @@
 ---
 title: "How Much Income Can a $500K DST Investment Generate?"
-description: "---
-
- How Much Income Can a $500K DST Investment Generate?
-
-Target keyword: DST investment income | Secondary: Delaware Statutory Trust returns, D"
+description: "See exactly how much monthly income a $500K–$1M DST investment generates. Real numbers, honest risks, and a rental property comparison for retiring investors."
 pubDate: "2026-04-24"
 ---
 
-
-<!-- META DESCRIPTION (160 chars): -->
-<!-- See exactly how much monthly income a $500K–$1M DST investment generates. Real numbers, honest risks, and a rental property comparison for retiring investors. -->
-
----
-
 # How Much Income Can a $500K DST Investment Generate?
-
-*Target keyword: DST investment income | Secondary: Delaware Statutory Trust returns, DST cash flow, DST distributions, passive income from DST, DST yield*
-
----
 
 You're about to exchange into a DST — but what will you actually receive each month?
 

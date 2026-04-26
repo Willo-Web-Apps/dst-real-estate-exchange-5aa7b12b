@@ -1,32 +1,10 @@
 ---
 title: "The 45-Day Rule: How to Not Blow Your 1031 Exchange"
-description: "---
-
- The 45-Day Rule: How to Not Blow Your 1031 Exchange
-
-Target Keyword: 1031 exchange 45-day rule
-Secondary Keywords: 1031 exchange timeline, i"
+description: "Miss the 1031 exchange 45-day rule and you owe the IRS everything. Learn exactly how the identification period works — and how DSTs make it nearly impossible to fail."
 pubDate: "2026-04-24"
 ---
 
-
-<!-- META DESCRIPTION (160 chars): -->
-<!-- Miss the 1031 exchange 45-day rule and you owe the IRS everything. Learn exactly how the identification period works — and how DSTs make it nearly impossible to fail. -->
-
----
-
 # The 45-Day Rule: How to Not Blow Your 1031 Exchange
-
-**Target Keyword:** 1031 exchange 45-day rule
-**Secondary Keywords:** 1031 exchange timeline, identification period 1031, 1031 exchange mistakes, how to identify replacement property 1031
-**Word Count:** ~2,050
-**CTA:** Download the Complete DST Guide at vestara1031.com/pricing + Free Consultation
-
----
-
-> **Meta Description:** Miss the 1031 exchange 45-day rule and you owe the IRS everything. Learn exactly how the identification period works — and how DSTs make it nearly impossible to fail.
-
----
 
 It's Day 40.
 
